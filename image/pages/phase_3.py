@@ -54,3 +54,6 @@ if uploaded_file is not None:
 
 else:
     st.warning("Please upload an image first.")
+
+if st.button("Go to Phase 4"):
+    st.switch_page("pages/phase_4.py")
